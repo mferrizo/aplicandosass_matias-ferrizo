@@ -1,3 +1,8 @@
-# Subida de Sitio a Git Hub
-**Sitio completo con todos sus cambios**
-**Rediseñando con Bootstrap**
+# SEgunda Entrega del Proyecto Final
+**Rediseñando con **
+## Sitio APB.NET.AR
+***
+Lenguajes Utilizados en el Sitio:
+* [Bootstrap]: Version 5.2 
+* [HTML]: Version 5
+* [CSS]: Version 2.1
