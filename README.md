@@ -1,5 +1,5 @@
 # SEgunda Entrega del Proyecto Final
-**Rediseñando con **
+**Rediseñando por completo **
 ## Sitio APB.NET.AR
 ***
 Lenguajes Utilizados en el Sitio:
