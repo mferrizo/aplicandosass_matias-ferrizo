@@ -6,3 +6,5 @@ Lenguajes Utilizados en el Sitio:
 * [Bootstrap]: Version 5.2 
 * [HTML]: Version 5
 * [CSS]: Version 2.1
+**Actualziacion **
+* [SASS]: Se Aplica SASS
