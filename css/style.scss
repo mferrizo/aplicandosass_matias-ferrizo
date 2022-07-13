@@ -2,3 +2,82 @@
 @import "main";
 @import "footer";
 @import "pantallas";
+
+//BOTONES REDES SOCIALES  
+$redes_sociales: (
+    twitter: #14171A,
+    facebook: #3b5998,
+    whatsapp: #ffffff,
+    youtube: #FF0000,
+    instagram: #C13584,
+);
+
+//COLORES DE FONDOS
+$colores: (
+  color01: #125f3c,
+  color02: #121a5f,
+  color03: #aa5218,
+  color04: #1FAB89,
+  color05: #FF0000,
+  color06: #C13584,
+  color07: #000000,
+  color08: #187eaa,
+  color09: #440202,
+  color10: #1d18aa,
+  color11: #1faa18,
+  color12: #6818aa,
+);
+
+//GENERANDO CON MAPS - ICONOS REDES SOCIALES
+@each $red, $color in $redes_sociales {
+    .#{$red} {
+        color: $color;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+        &:hover {
+            color: white;
+            font-size: 27px;
+            margin: 5px 5px 5px 5px;
+        }
+    }
+}
+//GENERANDO CON MAPS - COLORES FONDO TEXTO CLIENTES
+@each $red, $fondos in $colores {
+  .#{$red} {
+      background-color: $fondos;
+    }
+}
+
+// Titulos H1 con EXTEND 
+.titulo {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-shadow: -2px 1px 0 #14171A;  
+        p {text-decoration: overline  }
+}
+.titulo--planes {
+    @extend .titulo;
+    color: #125f3c;
+}
+.titulo--equipo {
+    @extend .titulo;
+    color: #1FAB89;
+}
+.titulo--contacto {
+    @extend .titulo;
+    color: #132b19;
+}
+.titulo--clientes {
+    @extend .titulo;
+    color: #187eaa;
+}
+
+
+
+
+
+
+

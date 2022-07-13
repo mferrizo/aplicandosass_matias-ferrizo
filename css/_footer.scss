@@ -1,4 +1,4 @@
-// Todo el Footer *//
+// Todo el Footer
 .footer {
     background-color: #1FAB89;
     text-align: center;
@@ -6,33 +6,7 @@
         .redes__pc {    
             visibility: hidden;
         }
-        .facebook {
-            color: #3b5998;
-            font-size: 25px;
-            margin: 5px 5px 5px 5px;
-        }
-        .instagram {
-            color: #C13584;
-            font-size: 25px;
-            margin: 5px 5px 5px 5px;
-        }
-        .whatsapp {
-            color: #ffffff;
-            font-size: 25px;
-            margin: 5px 5px 5px 5px;
-        }
-        .twitter {
-            color: #14171A;
-            font-size: 25px;
-            margin: 5px 5px 5px 5px;
-        }
-        .youtube {
-            color: #FF0000;
-            font-size: 25px;
-            margin: 5px 5px 5px 5px;
-        }
-    
-}
+    }
 /* Boton Flotante de Whatsapp */
 .whatsapp__flotante {
     position:fixed;
