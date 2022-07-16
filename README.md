@@ -19,3 +19,5 @@ Se aplica SEO:
 ##
 Se Utilizan MAPS MIXIN y EXTEND
 * Se agregan comentarios especificos al CSS y al HTML.
+##
+* Se Cambia el Index, se corrigen errores
